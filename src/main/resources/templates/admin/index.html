@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Proyecto de HA utilizando Spring Boot</title>
+</head>
+<body>
+<h1 >Zona Admin - Utilizando HA</h1>
+<a href="/">Ir a la pagina de inicio</a>
+<a href="/logout">Salida del Sistema</a>
+<hr>
+<h2>
+    Información del servidor local:
+</h2>
+<table>
+    <tr><th>Servidor</th><td th:text="${servidor}">asdasdasd</td></tr>
+    <tr><th>Puerto</th><td th:text="${puerto}">asdasdasd</td></tr>
+</table>
+</body>
+</html>
