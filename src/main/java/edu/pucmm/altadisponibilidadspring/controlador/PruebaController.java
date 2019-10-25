@@ -28,7 +28,7 @@ public class PruebaController {
         //
         Integer contador = (Integer) sesion.getAttribute("contador");
         if(contador == null){
-            contador = 1;
+            contador = 0;
         }
         contador++;
         sesion.setAttribute("contador", contador);
